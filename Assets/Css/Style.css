@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Quicksand:wght@300..700&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -5,3 +7,27 @@
 body{
     margin: 0;
 }
+
+/* 
+// <weight>: Use a value from 200 to 800
+// <uniquifier>: Use a unique and descriptive class name
+
+.assistant-<uniquifier> {
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+*/
+
+/* 
+// <weight>: Use a value from 300 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.quicksand-<uniquifier> {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+*/

@@ -43,6 +43,55 @@ body{
     --likeDarkBlue: hsl(216, 81%, 60%);
     --cream: hsl(18, 35%, 78%);
 
-
-
+    --standard-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.2);
+    --hover-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.25);
 } 
+
+/* Landing page */
+#landingHeader  {
+    background-image: url(../Img/landingPageHeroPicture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 640px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Assistant;
+    font-size: 20px;
+    margin-left: 50px;
+    text-shadow: var(--standard-shadow);
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+
+    text-shadow: var(--hover-shadow);
+}
+
+.button {
+    background: var(--buttonLightRed);
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: var(--standard-shadow);
+}
+
+.button:hover {
+    background: var(--buttonDarkRed);
+    box-shadow: var(--hover-shadow);
+    text-decoration: none;
+}

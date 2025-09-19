@@ -31,3 +31,18 @@ body{
     font-style: normal;
 }
 */
+
+:root {
+/* Farver */
+    --darkGray: hsl(0, 0%, 13%);
+    --iconGreen: hsl(165, 94%, 13%);
+    --iconYellow: hsl(46, 96%, 55%);
+    --buttonLightRed: hsl(317, 29%, 37%);
+    --buttonDarkRed: hsl(347, 37%, 25%);
+    --likeLightBlue: hsl(216, 81%, 71%);
+    --likeDarkBlue: hsl(216, 81%, 60%);
+    --cream: hsl(18, 35%, 78%);
+
+
+
+} 

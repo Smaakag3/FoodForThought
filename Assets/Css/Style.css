@@ -194,11 +194,60 @@ p {
     align-items: flex-start;
 }
 
-.cardInfoBot {
-    margin-top: 11px;
-}
 
 .recipes {
     display: flex;
     gap: 32px;
+}
+
+/* Generelt card */
+.card {
+    box-shadow: var(--standard-shadow);
+    border-radius: 4px;
+}
+
+
+/* Food stories */
+.foodStories {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+.foodStory {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    height: 448px;
+}
+
+.foodStory img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border-radius: 4px;
+}
+
+.foodStoryInfo {
+    margin-left: 32px;
+    margin-right: 8px;
+}
+
+.foodStory .iconImg {
+    height: 24px;
+    width: auto;
+}
+
+.foodStory .profilePicture {
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;          
+    overflow: hidden;
+    display: inline-block;
+}
+
+.profilePicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
 }

@@ -251,3 +251,145 @@ p {
     height: 100%;
     object-fit: cover;   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Recipe page */
+#recipeHeader  {
+    background-image: url(../Img/curriedCarrotSoup/curriedCarrotSoup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#recipeNameAndIcon {
+    display: flex;
+    padding-top: 3rem;
+    
+}
+
+#recipeNameAndIcon img {
+    width: 31px;
+    height: 40px;
+    margin: 16px;
+}
+
+#recipeRatingAndReview {
+    display: flex;
+}
+
+#recipeRatingAndReview img{
+    padding-left: 8px;
+}
+
+#recipeReview {
+    padding-left: 8rem;
+}
+
+#likesAndShares {
+    display: flex;
+}
+
+#recipeLike {
+    padding-inline: .5rem;
+}
+
+
+#recipeShare {
+    padding-left: 10rem;
+    padding-right: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    color: white;
+    background-color: var(--darkGray);
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: underline;
+    padding-inline: 48px;
+    font-size: 20px;
+}

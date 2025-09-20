@@ -333,6 +333,72 @@ p {
     border-radius: 50%;
 }
 
+/* #metaData {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+#metaData div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 96px;
+}
+
+#recipeClock{
+    height: 96px;
+    width: 96px;
+}
+
+#recipeUtensils{
+    width: 39px;
+    height: 96px;
+}
+
+
+
+#recipeBox{
+    background-color: var(--cream);
+    width: 1242px;
+} */
+
+
+
+
+#recipeMethod{
+    display: flex;
+   
+}
+
+hr{
+    width: 2px;
+    background-color: var(--darkGray);
+    border-width: 0;
+}
+
+
+
+
+
+
+
+
+#recipeNameAndLikes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#TAAThumbsUp {
+    margin-left: 3rem;
+}
+
+
+
+
 
 
 

@@ -321,8 +321,13 @@ p {
 /* Recipe card generel styling */
 
 .recipeCardSection {
+    display: flex;
+    gap: 2rem;
+}
+.recipeCard{
     box-shadow: var(--standard-shadow);
     display: inline-block;
+    max-width: 446px;;
 }
 
 

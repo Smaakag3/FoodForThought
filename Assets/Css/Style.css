@@ -318,13 +318,56 @@ p {
 
 
 
+/* Recipe card generel styling */
+
+.recipeCardSection {
+    box-shadow: var(--standard-shadow);
+    display: inline-block;
+}
 
 
+#recipeImage{
+    width: 446px;
+    height: 448px;
+    object-fit: cover;
+    border-radius: 4px;
+}
 
+#recipeAuthorImg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4px;
+}
 
+#recipeNameAndAuthor {
+    display: flex;
+    justify-content: space-between;
+}
 
+#recipeTime {
+    display: flex;
+}
 
+#recipeTime p {
+    margin-left: .5rem;
+}
 
+#recipeServing {
+    display: flex;
+}
+
+#recipeServing p {
+    margin-left: .5rem;
+}
+
+#recipeMetadata {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
 
 
 
@@ -345,9 +388,9 @@ footer {
 footer a {
     text-decoration: underline;
     padding-inline: 48px;
-=======
+}
 /* Generelt footer*/
-footer {
+/* footer {
     height: 112px;
     background: var(--darkGray);
     display: flex;
@@ -361,4 +404,4 @@ footer a {
     color: white;
     text-decoration: underline;
     font-size: 20px;
-}
+} */

@@ -412,7 +412,8 @@ hr{
 .recipeCard{
     box-shadow: var(--standard-shadow);
     display: inline-block;
-    max-width: 446px;;
+    max-width: 446px;
+    border-radius: 4px;
 }
 
 

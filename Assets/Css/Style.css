@@ -289,6 +289,12 @@ p {
     background-repeat: no-repeat;
 }
 
+#recipeTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:13rem;
+}
+
 #recipeNameAndIcon {
     display: flex;
     padding-top: 3rem;
@@ -327,6 +333,64 @@ p {
     padding-right: .5rem;
 }
 
+#nameAndPFP {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#MichaelCaines{
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* #metaData {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+#metaData div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 96px;
+}
+
+#recipeClock{
+    height: 96px;
+    width: 96px;
+}
+
+#recipeUtensils{
+    width: 39px;
+    height: 96px;
+}
+
+
+
+#recipeBox{
+    background-color: var(--cream);
+    width: 1242px;
+} */
+
+
+
+
+#recipeMethod{
+    display: flex;
+   
+}
+
+hr{
+    width: 2px;
+    background-color: var(--darkGray);
+    border-width: 0;
+}
 
 
 
@@ -335,9 +399,79 @@ p {
 
 
 
+#recipeNameAndLikes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#TAAThumbsUp {
+    margin-left: 3rem;
+}
 
 
 
+
+
+
+
+/* Recipe card generel styling */
+
+.recipeCardSection {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.recipeCard{
+    box-shadow: var(--standard-shadow);
+    display: inline-block;
+    max-width: 446px;
+    border-radius: 4px;
+}
+
+
+#recipeImage{
+    width: 446px;
+    height: 448px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#recipeAuthorImg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4px;
+}
+
+#recipeNameAndAuthor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recipeTime {
+    display: flex;
+}
+
+#recipeTime p {
+    margin-left: .5rem;
+}
+
+#recipeServing {
+    display: flex;
+}
+
+#recipeServing p {
+    margin-left: .5rem;
+}
+
+#recipeMetadata {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
 
 
 
@@ -353,13 +487,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 395px;
+}
 
 footer a {
-    color: white;
     text-decoration: underline;
-    font-size: 20px;
+    padding-inline: 48px;
 }
 
 /* Accordion */

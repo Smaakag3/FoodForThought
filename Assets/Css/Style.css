@@ -77,6 +77,7 @@ nav a:hover {
 
 .buttonWrapper {
     display: grid;
+    margin-bottom: 96px;
 }
 
 .button {
@@ -251,6 +252,7 @@ width: 100%;
 .kitchenware {
     display: flex;
     gap: 32px;
+    margin-top: 0;
 }
 
 .kitchenwareItem {
@@ -328,6 +330,22 @@ width: 100%;
     border-radius: 50%;
 }
 
+.timeAndServings {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 340px;
+}
+
+.largerIcons {
+    display: flex;
+    gap: 24px;
+}
+
+.largerIcons img {
+    height: 96px;
+    width: auto;
+}
+
 .procedureSection {
     background: var(--cream);
     margin-inline: 340px;
@@ -335,6 +353,7 @@ width: 100%;
     padding-inline: 100px;
     border-radius: 4px;
     display: grid;
+    position: relative;
 }
 
 .procedure {
@@ -345,8 +364,17 @@ width: 100%;
 
 .vertical-hr {
   width: 1px;          
-  height: 524px;               
+  height: 600px;               
   margin: 0;
+}
+
+.likeAndShare {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 
@@ -529,4 +557,32 @@ footer a {
     background: var(--likeDarkBlue);
     box-shadow: var(--hover-shadow);
     text-decoration: none;
+}
+
+.ratingCardSection {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingCard {
+    border: 2px solid black; 
+    border-radius: 4px;
+    width: 605px;
+    padding: 24px;
+}
+
+.ratingAndDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingDate {
+    display: flex;
+    gap: 5px;
+}
+
+.ratingUser {
+    display: flex;
+    gap: 8px;
 }

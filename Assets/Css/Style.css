@@ -343,21 +343,6 @@ footer {
 }
 
 footer a {
-    text-decoration: underline;
-    padding-inline: 48px;
-=======
-/* Generelt footer*/
-footer {
-    height: 112px;
-    background: var(--darkGray);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 395px;
-    
-}
-
-footer a {
     color: white;
     text-decoration: underline;
     font-size: 20px;

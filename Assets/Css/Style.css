@@ -56,6 +56,13 @@ body{
     background-repeat: no-repeat;
 }
 
+#authorHeader {
+    background-image: url(../Img/rickSteinRecipes/pastaWithAlmondBasil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: x y;
+}
+
 header {
     height: 640px;
 }
@@ -97,6 +104,7 @@ nav a:hover {
     border-radius: 4px;
     cursor: pointer;
     box-shadow: var(--standard-shadow);
+    color: white;
 }
 
 .button:hover {
@@ -135,8 +143,13 @@ p {
 }  
 
 .introduction {
+    display: grid;
     max-width: 75ch;
     justify-self: center;
+}
+
+.introduction .button {
+    justify-self:center;
 }
 
 /* Generelt card */
@@ -480,19 +493,71 @@ footer a {
     text-decoration: underline;
     padding-inline: 48px;
 }
-/* Generelt footer*/
-/* footer {
-    height: 112px;
-    background: var(--darkGray);
+
+/* Accordion */
+.accordionSection {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 395px;
-    
+    gap: 32px;
 }
 
-footer a {
+.accordionButton {
+  background: var(--likeLightBlue);
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: var(--standard-shadow);
     color: white;
-    text-decoration: underline;
-    font-size: 20px;
-} */
+    position: relative;
+}
+
+.accordionIndhold {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+  max-width: 100%;
+  background: var(--likeLightBlue);
+  position: absolute;
+  display: flex;
+}
+
+.accordion.accordionOpen .accordionIndhold  {
+  max-height: 100%;
+}
+
+.recommendendAuthors {
+    background: var(--likeDarkBlue);
+    margin: 48px 12px;
+    padding: 16px 32px;
+    display: grid;
+    justify-items: center;
+}
+
+.recommendendAuthors .profilePicture {
+    width: 287px;
+  height: 287px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.recommendendAuthors .profilePicture img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.likeButton {
+    background: var(--likeLightBlue);
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: var(--standard-shadow);
+    color: white;
+}
+
+.likeButton:hover {
+    background: var(--likeDarkBlue);
+    box-shadow: var(--hover-shadow);
+    text-decoration: none;
+}

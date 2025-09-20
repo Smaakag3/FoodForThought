@@ -276,6 +276,12 @@ p {
     background-repeat: no-repeat;
 }
 
+#recipeTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:13rem;
+}
+
 #recipeNameAndIcon {
     display: flex;
     padding-top: 3rem;
@@ -314,6 +320,18 @@ p {
     padding-right: .5rem;
 }
 
+#nameAndPFP {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#MichaelCaines{
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
 
@@ -323,6 +341,7 @@ p {
 .recipeCardSection {
     display: flex;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 .recipeCard{
     box-shadow: var(--standard-shadow);
